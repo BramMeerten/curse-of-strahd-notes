@@ -2,10 +2,10 @@
   "name": "sam-board",
   "version": "0.0.1",
   "scripts": {
-    "startt": "react-scripts start",
-    "start": "webpack serve --mode development --static ./public",
-    "start-ip": "webpack serve --host 0.0.0.0 --mode development --static ./public",
-    "build": "webpack --watch"
+    "start": "react-scripts start",
+    "start-webpack": "webpack serve --mode development --static ./public",
+    "build": "webpack",
+    "build:watch": "webpack --watch"
   },
   "dependencies": {
     "@types/react": "^18.0.25",
