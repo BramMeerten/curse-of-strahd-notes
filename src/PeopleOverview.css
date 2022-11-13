@@ -1,0 +1,68 @@
+/*.person-short-description {*/
+/*    display: flex;*/
+/*}*/
+
+td {
+    vertical-align: top;
+}
+
+input {
+    width: 400px;
+}
+
+#search {
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+@keyframes highlight-odd {
+    from {background-color: yellow;}
+    to {background-color: #e1e1e1;}
+}
+
+@keyframes highlight-even {
+    from {background-color: yellow;}
+    to {background-color: white;}
+}
+
+tr:nth-child(odd):target {
+    animation: highlight-odd 2s;
+}
+
+tr:nth-child(even):target {
+    animation: highlight-even 2s;
+}
+
+
+tr:nth-child(odd) {
+    background: #e1e1e1
+}
+
+.person-short-description .description {
+    max-width: 500px;
+    white-space: pre-wrap;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+.categories div {
+    padding: 0.2rem;
+    border-right: 1px solid black;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 640px) {
+    td.categories {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    input {
+        width: 95%;
+    }
+}
