@@ -19,8 +19,8 @@ export const people: Person[] = [
         alive: true
     },
     {
-        name: 'The Abbet',
-        nameAlphabet: 'Abbet, the',
+        name: 'The Abbot',
+        nameAlphabet: 'Abbot, the',
         shortDescription: 'Experimenteer op mensen/lijken',
         description: 'Woont in Abby Krezk, doet dingen met lijken.\n' +
             'Heeft Yurtle tot leven gewekt (heeft ons nog twee keer tegoed omdat we gezicht voor hem gevonden hebben).\n' +
@@ -88,7 +88,7 @@ export const people: Person[] = [
     {
         name: 'C. Cyrus Belleview',
         shortDescription: 'Concierge Strahd',
-        description: 'Concierge [Strahd]. Heeft hondenneus en bokkepoot. Familie die door [the Abbet] wordt gemarteld/verminkt/geknutselt',
+        description: 'Concierge [Strahd]. Heeft hondenneus en bokkepoot. Familie die door [the Abbot] wordt gemarteld/verminkt/geknutselt',
         categories: ['Ravenloft'],
         alive: true
     },
@@ -214,7 +214,7 @@ export const people: Person[] = [
     {
         name: 'Ilia',
         shortDescription: 'Zoon van Dimitri. Resurrected',
-        description: 'Zoon van [Dimitri]. Gestorven door ziekte. Resurrected door [the Abbet] (in ruil voor bruidskleren)',
+        description: 'Zoon van [Dimitri]. Gestorven door ziekte. Resurrected door [the Abbot] (in ruil voor bruidskleren)',
         categories: ['Krezk'],
         alive: true
     },
@@ -422,8 +422,8 @@ export const people: Person[] = [
     },
     {
         name: 'Vasilka',
-        shortDescription: 'Creatie van the Abbet, wil aan Strahd trouwen',
-        description: 'Creatie van [the Abbet], wil aan [Strahd] trouwen',
+        shortDescription: 'Creatie van the Abbot, wil aan Strahd trouwen',
+        description: 'Creatie van [the Abbot], wil aan [Strahd] trouwen',
         categories: ['Krezk'],
         alive: true
     },
