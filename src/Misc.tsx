@@ -7,10 +7,10 @@ export const Misc = () => {
             <ul>
                 <li>Hebben Ismark aangevallen (burgemeester Barovia Village) samen met zombies</li>
                 <li>Hebben Isek en zijn familie toen hij nog kind was aangevallen. De zus is toen verdwenen. Mogelijks is de zus Ireena.</li>
-                <li>Wolfmens vroeg ooit aan Lyrielle: “Are you a child of the mother (k)night?”</li>
+                <li>Wolfmens vroeg ooit aan Lyrielle: "Are you a child of the mother night?"</li>
                 <li>In (buurt van Krezk) worden kinderen gestolen door weerwolven sinds een paar maanden (en graffen worden geschonden)</li>
                 <li>Kunnen niet tegen zilver</li>
-                <li>Gevangen weerwolf zegt: “The mother (k)night ziet alles”</li>
+                <li>Gevangen weerwolf zegt: "The mother night ziet alles"</li>
             </ul>
 
             <h2>Strahd / Vampieren:</h2>

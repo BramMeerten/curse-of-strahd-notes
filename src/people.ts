@@ -14,7 +14,7 @@ export const people: Person[] = [
         name: 'Abigail',
         shortDescription: 'Vermist meisje',
         description: 'Meisje van ongeveer 19j, vermist. Eigenaar van hond [Lancelot].\n' +
-            'Werkt in castle Ravenloft als bediende. [Strahd] heeft haar gelokt met brief, heeft haar “speciale kust” beloofd',
+            'Werkt in castle Ravenloft als bediende. [Strahd] heeft haar gelokt met brief, heeft haar "speciale kus" beloofd',
         categories: ['Barovia', 'Ravenloft'],
         alive: true
     },
@@ -46,7 +46,7 @@ export const people: Person[] = [
         name: 'Annabel',
         shortDescription: 'Dochter van Luvash, was ontvoerd',
         description: 'Dochter van [Luvash], was ontvoerd door man die haar wilden verdrinken uit bijgeloof (geleerd uit boek dat hij van [Vargas] had gekregen)',
-        categories: ['Dusk Elves'],
+        categories: ['Vistani & Dusk Elves'],
         alive: true
     },
     {
@@ -59,9 +59,9 @@ export const people: Person[] = [
     },
     {
         name: 'Arigal',
-        shortDescription: 'Dusk elf, broer van [Luvash]',
-        description: 'Dusk elf, broer van [Luvash]. Heeft Brandon/Gilliam naar Barovia gelokt door nepbrief af te geven (in opdracht van [Strahd]).',
-        categories: ['Dusk Elves'],
+        shortDescription: 'Vistani, broer van [Luvash]',
+        description: 'Vistani, broer van [Luvash]. Heeft Brandon/Gilliam naar Barovia gelokt door nepbrief af te geven (in opdracht van [Strahd]).',
+        categories: ['Vistani & Dusk Elves'],
         alive: true
     },
     {
@@ -82,7 +82,7 @@ export const people: Person[] = [
         name: 'Cassimar',
         shortDescription: 'Leider Dusk Elves',
         description: 'Leider Dusk Elves',
-        categories: ['Dusk Elves'],
+        categories: ['Vistani & Dusk Elves'],
         alive: false
     },
     {
@@ -282,9 +282,9 @@ export const people: Person[] = [
     },
     {
         name: 'Luvash',
-        shortDescription: 'Dusk elf, vader Annabel',
-        description: 'Dusk elf, vader [Annabel]. Broer van [Arigal]',
-        categories: ['Dusk Elves'],
+        shortDescription: 'Vistani, vader Annabel',
+        description: 'Vistani, vader [Annabel]. Broer van [Arigal]',
+        categories: ['Vistani & Dusk Elves'],
         alive: true
     },
     {
@@ -298,7 +298,7 @@ export const people: Person[] = [
         name: 'Madam Eva',
         shortDescription: 'Zigeuner vrouw, deed voorspellingen',
         description: 'Zigeuner vrouw, deed voorspellingen',
-        categories: ['Zigeuners'],
+        categories: ['Vistani & Dusk Elves'],
         alive: true
     },
     {
@@ -332,7 +332,7 @@ export const people: Person[] = [
     {
         name: 'Rahadin',
         shortDescription: 'Chamberlin van Strahd, geeft opdrachten aan Dusk Elves broers',
-        description: 'Chamberlin van [Strahd], geeft opdrachten aan Dusk Elves broers\n',
+        description: 'Chamberlin van [Strahd], geeft opdrachten aan [Arigal] / [Luvash]\n',
         categories: ['Ravenloft'],
         alive: true
     },
@@ -348,7 +348,7 @@ export const people: Person[] = [
         shortDescription: 'Dusk Elf, tegengekomen in Argenvasthold',
         description: 'Tegengekomen in Argenvasthold, was op zoek naar [Annabel].\n' +
             'Gedood door wolf [Fenrir] (leek specifiek op hem gericht)\n',
-        categories: ['Dusk Elves'],
+        categories: ['Vistani & Dusk Elves'],
         alive: true
     },
     {
