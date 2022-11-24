@@ -140,7 +140,7 @@ export const people: Person[] = [
         shortDescription: 'Broer van Urwin (en Davion?)',
         description: 'Broer van [Urwin Martikov] (en [Davion Martikov]?). Lid van keepers of the feather',
         categories: ['Anderen'],
-        alive: true
+        alive: false
     },
     {
         name: 'Escher',
@@ -400,10 +400,11 @@ export const people: Person[] = [
     },
     {
         name: 'Valenta Popofsky',
-        shortDescription: 'Bride of Strahd',
-        description: 'Bride of Strahd',
+        shortDescription: 'Bride of Strahd. Gedood na bomaanslag in Valaki.',
+        description: 'Bride of Strahd. Gedood na bomaanslag in Valaki.\n' +
+            'Final strike is door [Strahd] gedaan omdat ze niet goed luisterde. Ze had [Ireena] aangevallen uit jaloezie.',
         categories: ['Ravenloft'],
-        alive: true
+        alive: false
     },
     {
         name: 'Vargas',
@@ -416,7 +417,8 @@ export const people: Person[] = [
     {
         name: 'Vasilie van Holt',
         shortDescription: 'Accountant van la resistance',
-        description: 'Accountant van la resistance',
+        description: 'Accountant van la resistance\n' +
+            'Is vermomming van [Strahd] (tenzij er ook nog een echte Vasili rond loopt).',
         categories: ['Valaki'],
         alive: true
     },
@@ -449,6 +451,14 @@ export const people: Person[] = [
         shortDescription: 'Merchant, gedood op terugweg van Krez/Valaki',
         description: 'Merchant, gedood op terugweg van Krez/Valaki door grote wolven',
         categories: ['Valaki'],
+        alive: true
+    },
+    {
+        name: 'Winter Splinter',
+        shortDescription: 'Grote boom die Wizards of wine aangevallen heeft',
+        description: 'Een grote boom (vermoedelijk) vertrokken in Yesterhill.\n' +
+            'Heeft de Wizards of Wine aangevallen en o.a. [Elvir Martkiov] gedood.\n',
+        categories: ['Anderen'],
         alive: true
     }
 

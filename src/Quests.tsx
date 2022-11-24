@@ -34,15 +34,11 @@ export const Quests = () => {
             <li>Clockwork man aan blinky geven (staat in castle ravenloft). Of boek erover</li>
             <li>Dagboek teruggeven aan Strahd → Reward maakt Gilliam vampire</li>
             <li>Ireena uitleveren aan Strahd → Reward Barovia verlaten</li>
-            <li>Valenta doden wanneer bom onder koets ontploft</li>
             <li>Botten terughalen voor father Lucien (liggen op kamer Ludmilla) → kan plek maken waar Strahd niet kan komen</li>
             <li>Opdracht van Argenvast uit haardvuur: “My knights have fallen into darkness, save them if you can, show them the light”</li>
             <li>Zoek zwaard van Sergei in ember temple (=evil temple). In Krakas mountains → Tolenka pas volgen.</li>
             <li>Steel/krijg magische ketting en two-handed sword van Vladimir Hornguard</li>
             <li>Zoek tombe van Sergei in castle ravenloft</li>
-            <li>Begeleid party vanuit Krezk naar Valaki om bruidsjurk te laten maken</li>
-            <li>Laat wapens met zilver maken in Vallaki</li>
-            <li>Dagboek terug opgraven en overschrijven?</li>
 
         </ol>
     )
