@@ -16,6 +16,7 @@ export const PeopleOverview = () => {
         }
     });
 
+    const reset = () => setSelected('Alles');
     const peopleSorted = people.sort(comparePeople);
     const peopleRows = peopleSorted
         .filter(p => (selected === 'Alles') || p.categories.includes(selected))
@@ -25,7 +26,7 @@ export const PeopleOverview = () => {
         .map(person => (
             <tr className="person-short-description" key={"person-" + person.name} id={toPersonId(person.name)}>
                 <td className="name">{person.name}{person.alive ? '' : ' †' }</td>
-                <td className="description">{replaceNameLinksWithHtmlLinks(person.description)}</td>
+                <td className="description">{replaceNameLinksWithHtmlLinks(person.description, reset)}</td>
                 <td className="categories">{person.categories.map((c, i) => (
                     <span key={person.name + "-" + c}>
                         {i ? ', ' : ''}<a href="#" onClick={() => setSelected(c)}>{c}</a>
@@ -60,11 +61,11 @@ function toPersonId(text: string) {
     return text.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim().replace(/ /g, '-');
 }
 
-function replaceNameLinksWithHtmlLinks(description: string) {
+function replaceNameLinksWithHtmlLinks(description: string, resetCallback: () => void) {
     return description.split(/(\[.+?\])/g).map((v, i) => {
         if (v.startsWith('[')) {
             const cleaned = v.substring(1, v.length-1);
-            return (<a key={"ds" + i} href={'#' + toPersonId(cleaned)}>{cleaned}</a>);
+            return (<a key={"ds" + i} href={'#' + toPersonId(cleaned)} onClick={resetCallback}>{cleaned}</a>);
         } else {
             return <span key={"d" + i}>{v}</span>
         }
