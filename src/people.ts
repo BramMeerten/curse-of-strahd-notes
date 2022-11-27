@@ -177,9 +177,10 @@ export const people: Person[] = [
         description: 'Leider la resistance. Heeft overgenomen als Burgemeester.\n' +
             'Is pro [Strahd] (of toch zeker niet tegen)\n' +
             'Pentagram in kelder van haar huis\n' +
-            'Haar man is dood, ligt in haar huis met twee munten op ogen\n',
+            'Haar man is dood, ligt in haar huis met twee munten op ogen\n' +
+            'Gestorven tijdens bomaanslag op koets.\n',
         categories: ['Valaki'],
-        alive: true
+        alive: false
     },
     {
         name: 'Fritz von Weerg',
@@ -349,7 +350,7 @@ export const people: Person[] = [
         description: 'Tegengekomen in Argenvasthold, was op zoek naar [Annabel].\n' +
             'Gedood door wolf [Fenrir] (leek specifiek op hem gericht)\n',
         categories: ['Vistani & Dusk Elves'],
-        alive: true
+        alive: false
     },
     {
         name: 'Sergei',
@@ -357,7 +358,7 @@ export const people: Person[] = [
         description: 'Broer van [Strahd]. Tombe is in castle ravenloft.\n' +
             'Verloofd met [Tatjana], gedood door Strahd\n',
         categories: ['Ravenloft'],
-        alive: true
+        alive: false
     },
     {
         name: 'Stella',
@@ -388,7 +389,7 @@ export const people: Person[] = [
         shortDescription: 'Demon, zat opgesloten in locket',
         description: 'Demon zat opgesloten in locket van Felix',
         categories: ['Anderen'],
-        alive: true
+        alive: false
     },
     {
         name: 'Urwin Martikov',
@@ -451,7 +452,7 @@ export const people: Person[] = [
         shortDescription: 'Merchant, gedood op terugweg van Krez/Valaki',
         description: 'Merchant, gedood op terugweg van Krez/Valaki door grote wolven',
         categories: ['Valaki'],
-        alive: true
+        alive: false
     },
     {
         name: 'Winter Splinter',
