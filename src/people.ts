@@ -24,9 +24,10 @@ export const people: Person[] = [
         shortDescription: 'Experimenteer op mensen/lijken',
         description: 'Woont in Abby Krezk, doet dingen met lijken.\n' +
             'Heeft Yurtle tot leven gewekt (heeft ons nog twee keer tegoed omdat we gezicht voor hem gevonden hebben).\n' +
-            'Zijn creatures zijn Belleview family\n',
+            'Zijn creatures zijn Belleview family\n' +
+            'Kwam zo\'n 100 jaar geleden en nam de abbey over, die lag leeg. Ervoor had [St. Markovia] deze.',
         categories: ['Krezk'],
-        alive: true
+        alive: false
     },
     {
         name: 'Alec de Minski',
@@ -124,9 +125,10 @@ export const people: Person[] = [
     {
         name: 'Dimitri',
         shortDescription: 'Burgemeester Krezk',
-        description: 'Burgemeester Krezk. ',
+        description: 'Burgemeester Krezk. \n' +
+            'Gedood door belleview creatures. [the Abbot] heeft hun losgelaten op Krezk, omdat bruidjurk niet op tijd is aangekomen.\n',
         categories: ['Krezk'],
-        alive: true
+        alive: false
     },
     {
         name: 'Donavich',
@@ -326,7 +328,8 @@ export const people: Person[] = [
     {
         name: 'Ractovia',
         shortDescription: 'Carnaval Ringmeester',
-        description: 'Carnaval ringmeester, ontmoet in Blue Water Inn Valaki',
+        description: 'Carnaval ringmeester, ontmoet in Blue Water Inn Valaki.\n' +
+            'Hij heeft zijn tijger losgelaten om Vistani te doden (tijger liet Dusk Elves met rust).',
         categories: ['Anderen'],
         alive: true
     },
@@ -461,7 +464,30 @@ export const people: Person[] = [
             'Heeft de Wizards of Wine aangevallen en o.a. [Elvir Martkiov] gedood.\n',
         categories: ['Anderen'],
         alive: true
-    }
+    },
+    {
+        name: 'St. Markovia',
+        shortDescription: 'Had vroeger controle over de abbey (was toen een ziekenhuis). Aanbeden de Morning Lord.',
+        description: 'Had vroeger controle over de abbey (was toen een ziekenhuis). Aanbeden de Morning Lord.\n' +
+            '100e jaren geleden was er een opstand tegen Strahd. Opstand was de kop ingeslagen, daarna lag de abbey leeg. Tot 100 jaar geleden [The Abbot] kwam.\n',
+        categories: ['Krezk'],
+        alive: false
+    },
+    {
+        name: 'Mother Night',
+        shortDescription: 'Een vestige met een dark gift.',
+        description: 'De Mother Night is een vestige (met een dark gift), haar avatar is een witte wolf.\n' +
+            'Een vestige is een evil being dat vast zit in de Ambert Temple.',
+        categories: ['Anderen'],
+        alive: true
+    },
+    {
+        name: 'Skennis',
+        shortDescription: 'Een oude man / weerwolf',
+        description: 'Een oude man die we tegengekomen zijn in cave van [Fenrir] / de weerwolven. Speelde fluit.',
+        categories: ['Anderen'],
+        alive: false
+    },
 
 
 ];

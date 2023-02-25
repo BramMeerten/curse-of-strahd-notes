@@ -11,6 +11,8 @@ export const Misc = () => {
                 <li>In (buurt van Krezk) worden kinderen gestolen door weerwolven sinds een paar maanden (en graffen worden geschonden)</li>
                 <li>Kunnen niet tegen zilver</li>
                 <li>Gevangen weerwolf zegt: "The mother night ziet alles"</li>
+                <li>Gebruiken mensen als offers</li>
+                <li>Trainen kinderen te vechten</li>
             </ul>
 
             <h2>Strahd / Vampieren:</h2>
@@ -24,6 +26,7 @@ export const Misc = () => {
                 <li>Strahd kan wel tegen stake through heart, maar kan dan niet bewegen</li>
                 <li>Strahd heeft schrik van zon en licht</li>
                 <li>Strahd heeft schrik van zwaard van Sergei</li>
+                <li>Strahd heeft een pact met een vestige gemaakt (mogelijks Mother Night?) in Amber temple. Daar ligt zijn onsterfelijkheid.</li>
 
             </ul>
 
