@@ -25,7 +25,8 @@ export const people: Person[] = [
         description: 'Woont in Abby Krezk, doet dingen met lijken.\n' +
             'Heeft Yurtle tot leven gewekt (heeft ons nog twee keer tegoed omdat we gezicht voor hem gevonden hebben).\n' +
             'Zijn creatures zijn Belleview family\n' +
-            'Kwam zo\'n 100 jaar geleden en nam de abbey over, die lag leeg. Ervoor had [St. Markovia] deze.',
+            'Kwam zo\'n 100 jaar geleden en nam de abbey over, die lag leeg. Ervoor had [St. Markovia] deze.\n' +
+            'Bevolking van Krezk dacht dat hij Strahd was, ze moesten hem regelmatig wijn betalen.',
         categories: ['Krezk'],
         alive: false
     },
@@ -68,7 +69,9 @@ export const people: Person[] = [
     {
         name: 'Baba Yassiga',
         shortDescription: 'Vermoedelijk dief van 1 van wijn brouw gems',
-        description: 'Vermoedelijk dief van 1 van wijn brouw gems. Woont in Berez.',
+        description:
+            'Vermoedelijk dief van 1 van wijn brouw gems. Woont in Berez.' +
+            'In Berez was vroeger een opstand, Strahd heeft het als straf onder water gezet.',
         categories: ['Anderen'],
         alive: true
     },
@@ -82,9 +85,10 @@ export const people: Person[] = [
     {
         name: 'Cassimar',
         shortDescription: 'Leider Dusk Elves',
-        description: 'Leider Dusk Elves',
+        description: 'Leider Dusk Elves. Zijn vrouw was ooit bruid van Strahd, zijn tribe heeft haar vermoord.\n' +
+            'Is op zoek naar Vestige [Zuduh] om zijn vrouw terug tot leven te wekken.',
         categories: ['Vistani & Dusk Elves'],
-        alive: false
+        alive: true
     },
     {
         name: 'C. Cyrus Belleview',
@@ -251,8 +255,8 @@ export const people: Person[] = [
         name: 'Kiril',
         shortDescription: 'Weerwolvenbaas',
         description: 'Weerwolvenbaas en baas van [Fenrir]',
-        categories: ['Anderen'],
-        alive: true
+        categories: ['Weerwolven'],
+        alive: false
     },
     {
         name: 'Kolyan',
@@ -279,9 +283,10 @@ export const people: Person[] = [
     {
         name: 'Ludmilla Villisovic',
         shortDescription: 'Vampire spawn, bride van Strahd',
-        description: 'Vampire spawn, bride van Strahd. Heeft beenderen van kerk [Lucien] laten stelen',
+        description: 'Vampire spawn, bride van Strahd. Heeft beenderen van kerk [Lucien] laten stelen. ' +
+            'We hebben haar in bergen vermoord, ze experimenteerde op [Emiel Doraneska] (en andere weerwolven?).',
         categories: ['Ravenloft'],
-        alive: true
+        alive: false
     },
     {
         name: 'Luvash',
@@ -366,7 +371,7 @@ export const people: Person[] = [
     {
         name: 'Stella',
         shortDescription: 'Dochter Fiona',
-        description: 'Dochter [Fiona Watcher]. Was ooit uitgehuwd aan [Viktor], mentaal ziek van geworden.',
+        description: 'Dochter [Fiona Watcher]. Was ooit uitgehuwd aan [Viktor], mentaal ziek van geworden (experimenteerde met spells op haar).',
         categories: ['Valaki'],
         alive: true
     },
@@ -398,7 +403,7 @@ export const people: Person[] = [
         name: 'Urwin Martikov',
         shortDescription: 'Bartender in blue water inn. Broer van Davion',
         description: 'Bartender in blue water inn. Broer van wijn brouwer Davion.\n' +
-            'Stond op wacht toen 10 jaar geleden eerste gem in wijn brouwerij gestolen is geweest',
+            'Stond op wacht toen 10 jaar geleden eerste gem in wijn brouwerij gestolen is geweest. Was toen naar zijn vrouw gegaan i.p.v. wacht te doen.',
         categories: ['Valaki'],
         alive: true
     },
@@ -461,13 +466,14 @@ export const people: Person[] = [
         name: 'Winter Splinter',
         shortDescription: 'Grote boom die Wizards of wine aangevallen heeft',
         description: 'Een grote boom (vermoedelijk) vertrokken in Yesterhill.\n' +
-            'Heeft de Wizards of Wine aangevallen en o.a. [Elvir Martkiov] gedood.\n',
+            'Heeft de Wizards of Wine aangevallen en o.a. [Elvir Martkiov] gedood.\n' +
+            'Is door ons gedood.',
         categories: ['Anderen'],
-        alive: true
+        alive: false
     },
     {
         name: 'St. Markovia',
-        shortDescription: 'Had vroeger controle over de abbey (was toen een ziekenhuis). Aanbeden de Morning Lord.',
+        shortDescription: 'Had vroeger controle over de abbey (oprichter, was toen een ziekenhuis). Aanbeden de Morning Lord.',
         description: 'Had vroeger controle over de abbey (was toen een ziekenhuis). Aanbeden de Morning Lord.\n' +
             '100e jaren geleden was er een opstand tegen Strahd. Opstand was de kop ingeslagen, daarna lag de abbey leeg. Tot 100 jaar geleden [The Abbot] kwam.\n',
         categories: ['Krezk'],
@@ -477,7 +483,8 @@ export const people: Person[] = [
         name: 'Mother Night',
         shortDescription: 'Een vestige met een dark gift.',
         description: 'De Mother Night is een vestige (met een dark gift), haar avatar is een witte wolf.\n' +
-            'Een vestige is een evil being dat vast zit in de Ambert Temple.',
+            'Een vestige is een evil being dat vast zit in de Ambert Temple.\n' +
+            'Ze vroeg aan Yurtle/David: "Will you defeat Strahd, will you be my champion, do you accept my gift?"',
         categories: ['Anderen'],
         alive: true
     },
@@ -485,8 +492,70 @@ export const people: Person[] = [
         name: 'Skennis',
         shortDescription: 'Een oude man / weerwolf',
         description: 'Een oude man die we tegengekomen zijn in cave van [Fenrir] / de weerwolven. Speelde fluit.',
+        categories: ['Weerwolven'],
+        alive: false
+    },
+    {
+        name: 'Cloven Belleview',
+        shortDescription: 'Caretaker v.d. abbey',
+        description: 'Caretaker v.d. abbey',
+        categories: ['Krezk'],
+        alive: true
+    },
+    {
+        name: 'Bianca',
+        shortDescription: 'Weerwolf, vrouw van [Kiril]',
+        description: 'Weerwolf, vrouw van [Kiril]',
+        categories: ['Weerwolven'],
+        alive: false
+    },
+    {
+        name: 'Zulyca',
+        shortDescription: 'Een van de enige overlevende weerwolven in de grot.',
+        description:
+            'Een van de enige overlevende weerwolven in de grot. We hebben haar laten gaan, ' +
+            'ze beloofd geen kinderen/mensen te ontvoeren.\n' +
+            'Ze was ooit in opstand tegen [Kiril] gekomen, als straf is haar man [Emiel Doraneska] naar [Strahd] gestuurd.',
+        categories: ['Weerwolven'],
+        alive: true
+    },
+    {
+        name: 'Emiel Doraneska',
+        shortDescription: 'Man van [Zulyca], ooit in opstand tegen [Kiril] gedaan.',
+        description:
+            'Man van [Zulyca], ooit in opstand tegen [Kiril] gedaan. ' +
+            'Is als straf naar Strahd gestuurd.\n' +
+            'Strahd liet vampier [Ludmilla Villisovic] op hem experimenteren, zat opgesloten in de bergen, wij hebben hem bevrijd.',
+        categories: ['Weerwolven'],
+        alive: true
+    },
+    {
+        name: 'Kovan',
+        shortDescription: 'Leider van de Barbarians, had de bloodspear.',
+        description: 'Leider van de Barbarians, had de bloodspear. Door ons gedood.',
         categories: ['Anderen'],
         alive: false
+    },
+    {
+        name: 'Mordred',
+        shortDescription: 'Leider van de Druids.',
+        description: 'Leider van de Druids. Door ons gedood.',
+        categories: ['Anderen'],
+        alive: false
+    },
+    {
+        name: 'Claudio Belasko',
+        shortDescription: 'Vrouw van weeshuis, vermoord.',
+        description: 'Vrouw van weeshuis, vermoord door David/Yurtle in opdracht van [Mother Night] (?).',
+        categories: ['Valaki'],
+        alive: false
+    },
+    {
+        name: 'Zuduh',
+        shortDescription: 'Een vestige.',
+        description: 'Een vestige, [Cassimar] zoekt het om zijn vrouw terug tot leven te wekken.',
+        categories: ['Anderen'],
+        alive: true
     },
 
 

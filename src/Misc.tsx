@@ -25,9 +25,27 @@ export const Misc = () => {
                 </ul>
                 <li>Strahd kan wel tegen stake through heart, maar kan dan niet bewegen</li>
                 <li>Strahd heeft schrik van zon en licht</li>
-                <li>Strahd heeft schrik van zwaard van Sergei</li>
-                <li>Strahd heeft een pact met een vestige gemaakt (mogelijks Mother Night?) in Amber temple. Daar ligt zijn onsterfelijkheid.</li>
+                <li>
+                    Strahd heeft schrik van zwaard van Sergei
+                    <ul>
+                        <li>
+                            Volgens Abbot (speak undead) is Strahd zijn zwakte het zwaard in de bergen,
+                            maar pas op: Strahd komt terug tot leven als je hem dood.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Strahd heeft een pact met een vestige gemaakt (mogelijks Mother Night?) in Amber temple. Daar ligt zijn onsterfelijkheid.
+                    (info komt van Abbot via speak undead)
+                </li>
+                <li>Barovia is demi plane of dread. Bepaalde dark powers duiden een dark power aan als lord van dit demi-plane (Strahd)</li>
+            </ul>
 
+            <h2>Vestiges:</h2>
+            <ul>
+                <li>In Ember temple als gevangenis voor dark beings</li>
+                <li>Evil beings die vast zitten in Ember temple</li>
+                <li>Mother Night is een vestige met een dark gift</li>
             </ul>
 
 

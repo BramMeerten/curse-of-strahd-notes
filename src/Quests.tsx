@@ -18,27 +18,29 @@ export const Quests = () => {
             <ul>
                 <li>Steel drakenkop uit castle ravenloft (achteringang gevonden in boek)</li>
             </ul>
-            <li>Cassimir (leider dust elves wil ons begeleiden naar tempel in berg Ghakis → uitleg te vinden over Strahd en zijn krachten</li>
+            <li style={{textDecoration: 'line-through'}}>Cassimir (leider dust elves wil ons begeleiden naar tempel in berg Ghakis → uitleg te vinden over Strahd en zijn krachten</li>
             <li>Vind drie magische gems die wijn brouwen mogelijk maken. Alle drie gestolen.<br/>Beloning voor 1 gem: Hulp van gilde: “Keepers of the
                 feather”
             </li>
             <ul>
                 <li>Eerste is 10 jaar geleden gestolen</li>
                 <li>Drie weken geleden gestolen (vermoedelijk door Baba Yassiga)</li>
-                <li>Door druids gestolen (leven in yesterhill)</li>
+                <li style={{textDecoration: 'line-through'}}>Door druids gestolen (leven in yesterhill)</li>
             </ul>
-            <li>
+            <li style={{textDecoration: 'line-through'}}>
                 Weerwolven probleem oplossen voor burgemeester Dimitri (500gp reward)<br />
                 (Krijgen nog maar 250gp voor omdat we al kar naar Valaki begeleid hebben)
             </li>
-            <li>Clockwork man aan blinky geven (staat in castle ravenloft). Of boek erover</li>
-            <li>Dagboek teruggeven aan Strahd → Reward maakt Gilliam vampire</li>
+            <li>Clockwork man aan blinky geven (staat in castle ravenloft). Of boek erover (2e verdiep kasteel: "Von Weers Masterpiece, the great atomatom")</li>
+            <li style={{textDecoration: 'line-through'}}>Dagboek teruggeven aan Strahd → Reward maakt Gilliam vampire</li>
             <li style={{textDecoration: 'line-through'}}>Ireena uitleveren aan Strahd → Reward Barovia verlaten</li>
             <li>Botten terughalen voor father Lucien (liggen op kamer Ludmilla) → kan plek maken waar Strahd niet kan komen</li>
             <li>Opdracht van Argenvast uit haardvuur: “My knights have fallen into darkness, save them if you can, show them the light”</li>
-            <li>Zoek zwaard van Sergei in ember temple (=evil temple). In Krakas mountains → Tolenka pas volgen.</li>
+            <li style={{textDecoration: 'line-through'}}>Zoek zwaard van Sergei in ember temple (=evil temple). In Krakas mountains → Tolenka pas volgen.</li>
             <li>Steel/krijg magische ketting en two-handed sword van Vladimir Hornguard</li>
             <li>Zoek tombe van Sergei in castle ravenloft</li>
+            <li style={{textDecoration: 'line-through'}}>Stop opstand druids/wintersplinter</li>
+            <li>Ga naar trouw van Strahd en Ireena</li>
 
         </ol>
     )
