@@ -35,7 +35,7 @@ export const Misc = () => {
                     </ul>
                 </li>
                 <li>
-                    Strahd heeft een pact met een vestige gemaakt (mogelijks Mother Night?) in Amber temple. Daar ligt zijn onsterfelijkheid.
+                    Strahd heeft een pact met een vestige gemaakt (Vol) in Amber temple. Daar ligt zijn onsterfelijkheid.
                     (info komt van Abbot via speak undead)
                 </li>
                 <li>Barovia is demi plane of dread. Bepaalde dark powers duiden een dark power aan als lord van dit demi-plane (Strahd)</li>
@@ -44,8 +44,23 @@ export const Misc = () => {
             <h2>Vestiges:</h2>
             <ul>
                 <li>In Ember temple als gevangenis voor dark beings</li>
-                <li>Evil beings die vast zitten in Ember temple</li>
-                <li>Mother Night is een vestige met een dark gift</li>
+                <li>
+                    Gekende vestiges:
+                    <ul>
+                        <li>Mother Night (een vestige met een dark gift)</li>
+                        <li>Vol (Strahd heeft hier pact mee gesloten --&gt; heeft hem undead gemaakt)</li>
+                        <li>Shadow demon vestige</li>
+                        <li>Zuduh (Cassimir wilde hiermee een deal sluiten om zijn vrouw terug tot leven te wekken)</li>
+                    </ul>
+                </li>
+                <li>
+                    Onderling in competitie met elkaar??? Want:
+                    <ul>
+                        <li>Mother night heeft Claudia laten vermoorden --&gt; had ring van shadow demon (Vestige)</li>
+                        <li>Mother night wil Fenrir sturen om Strahd (vestige Vol) te helpen verslaan</li>
+                        <li>Ze willen elk de "dark power" zijn die lord is van de demi plane?? Nu is dit Strahd/Vol??</li>
+                    </ul>
+                </li>
             </ul>
 
 

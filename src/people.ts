@@ -83,12 +83,12 @@ export const people: Person[] = [
         alive: false
     },
     {
-        name: 'Cassimar',
+        name: 'Cassimir',
         shortDescription: 'Leider Dusk Elves',
         description: 'Leider Dusk Elves. Zijn vrouw was ooit bruid van Strahd, zijn tribe heeft haar vermoord.\n' +
             'Is op zoek naar Vestige [Zuduh] om zijn vrouw terug tot leven te wekken.',
         categories: ['Vistani & Dusk Elves'],
-        alive: true
+        alive: false
     },
     {
         name: 'C. Cyrus Belleview',
@@ -553,7 +553,7 @@ export const people: Person[] = [
     {
         name: 'Zuduh',
         shortDescription: 'Een vestige.',
-        description: 'Een vestige, [Cassimar] zoekt het om zijn vrouw terug tot leven te wekken.',
+        description: 'Een vestige, [Cassimir] zoekt het om zijn vrouw terug tot leven te wekken.',
         categories: ['Anderen'],
         alive: true
     },
